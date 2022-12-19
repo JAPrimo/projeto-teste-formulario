@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Pesquisa</title>
+
+</head>
+<body>
+    <header>
+
+    </header>
+    
+    <form>
+    <h1>Formulário de Pesquisa</h1>
+        <div class="dados">
+            <label for="nome">Nome</label><br>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+
+        <div class="dados">
+            <label for="email">Email<em>*</em></label><br>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="dados">
+            <label for="age">Idade<span class="clue">(opcional)</span></label><br>
+            <input type="number" name="number" id="number">
+        </div>
+
+    
+        <div class="funcao">
+            <label>Qual opção melhor descreve sua função atual?</label><br>
+            <br><select>
+                <option disabled selected value>Selecione a função atual</option>
+                <option>Aluno</option>
+                <option>Emprego em tempo integral</option>
+                <option>Aluno em tempo integral</option>
+                <option>Prefiro não dizer</option>
+                <option>outro</option>
+            </select>
+        </div>
+
+        <div class="recomendacao">
+            <p>Você recomendaria o freedCodeCamp a um amigo?</p>
+
+            <br><label for="radio-definitivamente"><input type="radio" name="recomendaria" value="definitivamente" id="radio-definitivamente">Definitivamente</label><br>
+
+            <br><label for="radio-talvez"><input type="radio" name="recomendaria" value="tavez" id="radio-talvez">Talvez</label><br>
+
+            <br><label for="radio-nao-tenho-certeza"><input type="radio" name="recomendaria" value="nao-tenho-certeza" id="radio-nao-tenho-certeza" checked>Não tenho certeza</label>
+            
+        </div>
+
+        <div class="favorito">
+            <label>Qual é o seu recurso favorito do freedCodeCamp?</label><br>
+            <br><select>
+                <option disabled selected value>Selecione uma opção</option>
+                <option>Desafios</option>
+                <option>Projetos</option>
+                <option>Comunidade</option>
+                <option>Código aberto</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p>O que você gostaria de ver melhorado?<span class="clue">(Marque todas as que se aplicam)</span></p>
+
+            <label for="checkbox-front-end"><input type="checkbox" name="front-end" value="front-end" id="checkbox-front-end">Projetos Front-end</label><br>
+
+            <label for="checkbox-back-end"><input type="checkbox" name="back-end" value="back-end" id="checkbox-back-end">Projetos Back-end</label><br>
+
+            <label for="checkbox-data-visual"><input type="checkbox" name="data-visualization" value="data-visualization" id="checkbox-data-visual">Visualização de Dados</label><br>
+
+            <label for="checkbox-desafios"><input type="checkbox" name="desafios" value="desafiios" id="checkbox-desafios">Desafios</label><br>
+
+            <label for="checkbox-comunidade"><input type="checkbox" name="comunidade" value="comunidade" id="checkbox-comunidade">Comunidade de código aberto</label><br>
+
+            <label for="checkbox-gitter"><input type="checkbox" name="gitter" value="gitter" id="checkbox-gitter">Salas de ajuda Gitter</label><br>
+
+            <label for="checkbox-videos"><input type="checkbox" name="videos" value="videos" id="checkbox-back-end">Videos</label><br>
+
+            <label for="checkbox-encontros"><input type="checkbox" name="back-end" value="encontros" id="checkbox-encontros">Encontros da cidade</label><br>
+
+            <label for="checkbox-wiki"><input type="checkbox" name="wiki" value="wiki" id="checkbox-back-end">Wiki</label><br>
+
+            <label for="checkbox-forum"><input type="checkbox" name="forum" value="forum" id="checkbox-forum">Forum</label><br>
+
+            <label for="checkbox-cursos"><input type="checkbox" name="cursos" value="cursos" id="checkbox-cursos">Cursos adicionais</label>
+        </div>
+
+        <div class="sugestao">
+            <p>Algum comentário ou sugestão?</p><br>
+            <textarea name="comentarios" id="comentario" class="input-textarea"  style="width: 36em;" rows="8" placeholder="Insira seu comentario aqui...."></textarea>
+        </div>
+
+        <div class="button">
+            <button type="sbmit" id="submit" class="button-submit">Enviar</button>
+        </div>
+
+
+    </form>
+</body>
+</html>

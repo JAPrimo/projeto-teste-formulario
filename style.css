@@ -1,0 +1,113 @@
+body{
+    background-image:url("escritorio.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:1000px;
+    background-attachment:fixed;
+    
+}
+
+form {
+    background: #9270a0;
+    opacity: 0.9;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.dados {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.dados em {
+    color: #e4216c;
+}
+
+.clue {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #5614f0;
+}
+
+#nome, #email, #number {
+    width: 50%;
+
+}
+
+ #number {
+    width: 40px;
+}
+
+.funcao {
+    font-size: 20px;
+    margin-top: 20px;
+   
+}
+
+.funcao select{
+    width: 30%;
+}
+
+.recomendacao {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.recomendacao p {
+    text-align: left;
+}
+
+.favorito {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.favorito select {
+    width: 30%;
+}
+
+.form-group  {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.form-group p {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.sugestao {
+    font-size: 20px;
+}
+
+.button-submit {
+    color: azure;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #5e5d5d;
+    background: orange;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.button {
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.button-submit:hover {
+    background: darkorange;
+	transform: scale(1.2);
+}
